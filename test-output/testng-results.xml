@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-10T23:36:33 EST" name="Suite" finished-at="2022-12-10T23:36:33 EST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Suite -->
+  <suite started-at="2022-12-10T23:36:33 EST" name="Suite (1)" finished-at="2022-12-10T23:36:33 EST" duration-ms="15">
+    <groups>
+    </groups>
+    <test started-at="2022-12-10T23:36:33 EST" name="Test" finished-at="2022-12-10T23:36:33 EST" duration-ms="15">
+      <class name="test_enveronment.Login">
+        <test-method signature="loginTest()[pri:0, instance:test_enveronment.Login@16eb3ea3]" started-at="2022-12-10T23:36:33 EST" name="loginTest" finished-at="2022-12-10T23:36:33 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- test_enveronment.Login -->
+      <class name="test_enveronment.Logout">
+        <test-method signature="logoutTest()[pri:0, instance:test_enveronment.Logout@6caf0677]" started-at="2022-12-10T23:36:33 EST" name="logoutTest" finished-at="2022-12-10T23:36:33 EST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+      </class> <!-- test_enveronment.Logout -->
+      <class name="test_enveronment.Home">
+        <test-method signature="homeTest()[pri:0, instance:test_enveronment.Home@413d1baf]" started-at="2022-12-10T23:36:33 EST" name="homeTest" finished-at="2022-12-10T23:36:33 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeTest -->
+      </class> <!-- test_enveronment.Home -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (1) -->
+  <suite started-at="2022-12-10T23:36:32 EST" name="Suite (0)" finished-at="2022-12-10T23:36:33 EST" duration-ms="75">
+    <groups>
+    </groups>
+    <test started-at="2022-12-10T23:36:32 EST" name="Test" finished-at="2022-12-10T23:36:33 EST" duration-ms="75">
+      <class name="prod_environment.Logout">
+        <test-method signature="logoutTestprod()[pri:0, instance:prod_environment.Logout@54c5a2ff]" started-at="2022-12-10T23:36:32 EST" name="logoutTestprod" finished-at="2022-12-10T23:36:33 EST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTestprod -->
+      </class> <!-- prod_environment.Logout -->
+      <class name="prod_environment.Home">
+        <test-method signature="homeTestprod()[pri:0, instance:prod_environment.Home@60099951]" started-at="2022-12-10T23:36:32 EST" name="homeTestprod" finished-at="2022-12-10T23:36:32 EST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeTestprod -->
+      </class> <!-- prod_environment.Home -->
+      <class name="prod_environment.Login">
+        <test-method signature="loginTestprod()[pri:0, instance:prod_environment.Login@6d4d66d2]" started-at="2022-12-10T23:36:33 EST" name="loginTestprod" finished-at="2022-12-10T23:36:33 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestprod -->
+      </class> <!-- prod_environment.Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
+  <suite started-at="2022-12-10T23:36:33 EST" name="Suite (2)" finished-at="2022-12-10T23:36:33 EST" duration-ms="12">
+    <groups>
+    </groups>
+    <test started-at="2022-12-10T23:36:33 EST" name="Test" finished-at="2022-12-10T23:36:33 EST" duration-ms="12">
+      <class name="uat_environement.Login">
+        <test-method signature="loginTestuat()[pri:0, instance:uat_environement.Login@710c2b53]" started-at="2022-12-10T23:36:33 EST" name="loginTestuat" finished-at="2022-12-10T23:36:33 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestuat -->
+      </class> <!-- uat_environement.Login -->
+      <class name="uat_environement.Logout">
+        <test-method signature="logoutTestuat()[pri:0, instance:uat_environement.Logout@2767e23c]" started-at="2022-12-10T23:36:33 EST" name="logoutTestuat" finished-at="2022-12-10T23:36:33 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTestuat -->
+      </class> <!-- uat_environement.Logout -->
+      <class name="uat_environement.Home">
+        <test-method signature="homeTestuat()[pri:0, instance:uat_environement.Home@6fa51cd4]" started-at="2022-12-10T23:36:33 EST" name="homeTestuat" finished-at="2022-12-10T23:36:33 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeTestuat -->
+      </class> <!-- uat_environement.Home -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (2) -->
+</testng-results>
